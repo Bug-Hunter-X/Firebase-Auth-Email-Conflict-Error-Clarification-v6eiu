@@ -1,0 +1,1 @@
+The Firebase Authentication SDK might throw an unexpected error if the user's email is already in use but the `createUserWithEmailAndPassword` method is called without checking for existing users first.  This leads to a confusing error message that doesn't clearly indicate the email conflict.
